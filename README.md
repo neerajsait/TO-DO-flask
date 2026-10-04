@@ -1,32 +1,26 @@
-# TO DO flask
+# TO-DO-flask
 
-> To-Do list application built with Flask (Python) and CSS
+> A small Flask to-do list backed by SQLite.
 
-Built with CSS and focused on css, flask, python, todo-app.
+## Overview
 
-## About this project
+The app stores tasks with a description, completion state, and creation time. Its interface supports adding tasks and editing or deleting existing ones.
 
-This repository is part of **Neeraj Sai's** growing collection of software projects, experiments, and learning builds. It reflects a practical, curious approach to creating useful products and understanding how they work under the hood.
+## What’s in this repo
+
+- Task creation and list display
+- Task update and deletion routes
+- SQLite persistence through Flask-SQLAlchemy
+
+## Stack
+
+Python, Flask, Flask-SQLAlchemy, SQLite, HTML templates, and CSS.
 
 ## Getting started
 
-Clone the repository and follow the setup instructions for the project's framework or language:
+1. Install Flask and Flask-SQLAlchemy in a Python environment.
+2. Run `python app.py` from the repository root; the app uses a local SQLite database.
 
-```bash
-git clone https://github.com/neerajsait/TO-DO-flask.git
-cd TO-DO-flask
-```
+## Notes
 
-Check the project files for the available run commands and configuration requirements.
-
-## Links
-
-[Repository](https://github.com/neerajsait/TO-DO-flask)
-
-## Author
-
-**Tiruveedhi Neeraj Venkata Sai**
-
-- GitHub: [@neerajsait](https://github.com/neerajsait)
-- Portfolio: [neeraj's portfolio](https://github.com/neerajsait/portfoliomain)
-
+This is a starter project. The current application configuration is for local use; add production-grade secret management, validation, and deployment settings before publishing it.
